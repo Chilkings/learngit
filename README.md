@@ -67,7 +67,7 @@ Replace the tip of the current branch by creating a new commit.
 | 查看分支       | git branch                  | 创建新分支            | git branch new_branch     |
 | 切换分支       | git checkout branch_name    | 删除分支(After merge) | git branch -d branch_name |
 | 创建并切换分支 | git checkout -b new_branch  | 合并分支              | git merge branch_name     |
-| 更改分支名称   | git branch -m name new_name |                       |                           |
+| 更改分支名称   | git branch -m name new_name | 查看远程分支           |  git remote -v               |
 |                |                             |                       |                           |
 
 **合并有冲突的分支**：
